@@ -2,11 +2,11 @@ import Microphone.script_mic as mic
 import Webcam.script_cam as cam
 import Speed.script_speed as speed
 import PRNG.script_PRNG as PRNG
-import Heat.script_heat as heat
+import Keystrokes.script_keystrokes as keystrokes
 
 import time
 
-arr = [heat]
+arr = [keystrokes]
 
 for t in arr:
     # Begin
